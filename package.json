@@ -1,5 +1,5 @@
 {
-  "name": "message-box",
+  "name": "barco-message-box",
   "version": "0.0.1",
   "description": "A package for defining and getting validation error messages, with support for Meteor Tracker reactivity",
   "author": "Eric Dobbertin <aldeed@gmail.com>",
@@ -8,6 +8,7 @@
     "type": "git",
     "url": "https://github.com/aldeed/node-message-box.git"
   },
+  "publishConfig": { "registry": "https://bin.barco.com/artifactory/api/npm/npm-local"},
   "bugs": {
     "url": "https://github.com/aldeed/node-message-box/issues"
   },
